@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 14, *)
 @main
 struct StickyViewApp: App {
     var body: some Scene {

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012FBAAC2C344A0F00AE5C1C /* TwoSectionScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FBAAB2C344A0F00AE5C1C /* TwoSectionScrollView.swift */; };
+		01B4978F2C3577F10061B9E4 /* ModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B4978B2C3577DF0061B9E4 /* ModalPresenter.swift */; };
+		01B497902C3577F10061B9E4 /* ResizableSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B4978C2C3577DF0061B9E4 /* ResizableSheet.swift */; };
+		01B497912C3577F10061B9E4 /* ResizableSheetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B4978D2C3577DF0061B9E4 /* ResizableSheetStyle.swift */; };
 		01E972A12C32AED000B78C98 /* StickyViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E972A02C32AED000B78C98 /* StickyViewApp.swift */; };
 		01E972A32C32AED000B78C98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E972A22C32AED000B78C98 /* ContentView.swift */; };
 		01E972A52C32AED100B78C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E972A42C32AED100B78C98 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		012FBAAB2C344A0F00AE5C1C /* TwoSectionScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSectionScrollView.swift; sourceTree = "<group>"; };
+		01B4978B2C3577DF0061B9E4 /* ModalPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresenter.swift; sourceTree = "<group>"; };
+		01B4978C2C3577DF0061B9E4 /* ResizableSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheet.swift; sourceTree = "<group>"; };
+		01B4978D2C3577DF0061B9E4 /* ResizableSheetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetStyle.swift; sourceTree = "<group>"; };
 		01E9729D2C32AED000B78C98 /* StickyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E972A02C32AED000B78C98 /* StickyViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyViewApp.swift; sourceTree = "<group>"; };
 		01E972A22C32AED000B78C98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012FBAAA2C3449EF00AE5C1C /* TwoSectionScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				012FBAAB2C344A0F00AE5C1C /* TwoSectionScrollView.swift */,
+			);
+			path = TwoSectionScrollView;
+			sourceTree = "<group>";
+		};
+		01B4978E2C3577DF0061B9E4 /* ModalPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				01B4978B2C3577DF0061B9E4 /* ModalPresenter.swift */,
+				01B4978C2C3577DF0061B9E4 /* ResizableSheet.swift */,
+				01B4978D2C3577DF0061B9E4 /* ResizableSheetStyle.swift */,
+			);
+			path = ModalPresenter;
+			sourceTree = "<group>";
+		};
 		01E972942C32AED000B78C98 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +79,8 @@
 			children = (
 				01E972A02C32AED000B78C98 /* StickyViewApp.swift */,
 				01E972A22C32AED000B78C98 /* ContentView.swift */,
+				01B4978E2C3577DF0061B9E4 /* ModalPresenter */,
+				012FBAAA2C3449EF00AE5C1C /* TwoSectionScrollView */,
 				01E972A42C32AED100B78C98 /* Assets.xcassets */,
 				01E972A62C32AED100B78C98 /* Preview Content */,
 			);
@@ -137,6 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B4978F2C3577F10061B9E4 /* ModalPresenter.swift in Sources */,
+				01B497902C3577F10061B9E4 /* ResizableSheet.swift in Sources */,
+				01B497912C3577F10061B9E4 /* ResizableSheetStyle.swift in Sources */,
+				012FBAAC2C344A0F00AE5C1C /* TwoSectionScrollView.swift in Sources */,
 				01E972A32C32AED000B78C98 /* ContentView.swift in Sources */,
 				01E972A12C32AED000B78C98 /* StickyViewApp.swift in Sources */,
 			);
@@ -280,6 +312,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +342,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
